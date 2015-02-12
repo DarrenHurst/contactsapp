@@ -1,0 +1,29 @@
+.addForm{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   color:#AAA;
+   width:400px;
+   margin:0 auto;
+   padding:10px;
+}
+.addForm button{
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   background-color:#CCFFCC;
+   border: 1px #006600 solid;
+   color:#006600;
+   padding:5px;
+   font-size:16px;
+   border-radius:3px;
+   min-width:80px;
+   margin-top:15px;
+}
+
+.addForm input{
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+    font-size:16px;
+    min-width:250px;
+	padding:5px;
+	display:block;
+}
