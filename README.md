@@ -1,3 +1,9 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+#Running Instructions
+   
+##1. Run with Node and Local
+----------------------------
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+   Start your local Mondo DB instance ./mongod
+   Start Node server | node server/app.js
+
+![alt tag](https://raw.github.com/darrenhurst/contactsapp/master/screen.png)
