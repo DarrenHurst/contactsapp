@@ -5,18 +5,18 @@
 
 Use grunt build 
 
---- Run Local
-    * Start Mongo server ./mondod
-    * Grunt serve
---- Run Local Distribution Test
-    * Grunt serve:dist
+#### Run Local
+    - Start Mongo server ./mondod
+    - Grunt serve
+#### Run Local Distribution Test
+    - Grunt serve:dist
 
 ##2. Deploy to OpenShift
 ----------------------------
 
-* yo angular-fullstack:openshift
+- yo angular-fullstack:openshift
 
---- To Update Cloud Build
+#### To Update Cloud Build
 After app modification run
 grunt build
 Then deploy with
@@ -27,4 +27,4 @@ grunt buildcontrol:openshift
 
 ##2. It's live on OpenShift
 -------------------------------
-![alt tag](http://test-dhurst.rhcloud.com)
+http://test-dhurst.rhcloud.com
