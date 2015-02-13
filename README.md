@@ -32,6 +32,12 @@ This appliction runs the yeoman angular-fullstack generator. It uses a component
 ![alt tag](https://raw.github.com/darrenhurst/contactsapp/master/screen.png)
 
 
-##2. It's live on OpenShift
+##3. It's live on OpenShift
 -------------------------------
 http://test-dhurst.rhcloud.com
+
+##4. Nice to have's
+    - add google contacts api
+    - play with layout
+    - and more contact information
+    - create contact interactions
