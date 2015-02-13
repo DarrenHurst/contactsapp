@@ -17,10 +17,11 @@
     - yo angular-fullstack:openshift
 
 #### To Update Cloud Build
-After app modification run
-grunt build
-Then deploy with
-grunt buildcontrol:openshift
+    
+#####After app modification run
+- grunt build
+#####Then deploy with
+- grunt buildcontrol:openshift
 
 ![alt tag](https://raw.github.com/darrenhurst/contactsapp/master/screen.png)
 
