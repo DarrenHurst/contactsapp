@@ -23,3 +23,8 @@ Then deploy with
 grunt buildcontrol:openshift
 
 ![alt tag](https://raw.github.com/darrenhurst/contactsapp/master/screen.png)
+
+
+##2. It's live on OpenShift
+-------------------------------
+![alt tag](http://test-dhurst.rhcloud.com)
