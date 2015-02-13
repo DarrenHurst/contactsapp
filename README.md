@@ -19,9 +19,10 @@
 #### To Update Cloud Build
     
 #####After app modification run
-- grunt build
+    - grunt build
+
 #####Then deploy with
-- grunt buildcontrol:openshift
+    - grunt buildcontrol:openshift
 
 ![alt tag](https://raw.github.com/darrenhurst/contactsapp/master/screen.png)
 
