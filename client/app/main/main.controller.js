@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('contactsApp')
+angular.module('testApp')
   .controller('MainCtrl', function ($scope, $http) {
     $scope.Contacts = [];
 
@@ -11,7 +11,7 @@ angular.module('contactsApp')
     $scope.add = function() {
      
       $http.post('/api/contact', { name:this.name, email:this.email,phone1:this.phone1 })
-      .success(function(responseData, status){
+      .success(function(){
         $http.get('/api/contact').success(function(contacts) {
         $scope.$parent.Contacts = contacts;
        
@@ -27,4 +27,5 @@ angular.module('contactsApp')
       $scope.Contacts = contacts;
     });
     };
+    
   });

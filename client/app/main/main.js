@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('contactsApp')
+angular.module('testApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {

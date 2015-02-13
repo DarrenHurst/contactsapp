@@ -3,10 +3,10 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-var ContactSchema = new Schema({
+var ContactsSchema = new Schema({
   name: String,
   email: String,
-  phone1: String
+  phone1: Boolean
 });
 
-module.exports = mongoose.model('Contact', ContactSchema);
+module.exports = mongoose.model('Contact', ContactsSchema);

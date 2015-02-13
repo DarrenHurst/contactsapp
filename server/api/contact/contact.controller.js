@@ -1,12 +1,11 @@
 /**
  * Using Rails-like standard naming convention for endpoints.
- * GET     /Contacts              ->  index
- * POST    /Contacts              ->  create
- * GET     /Contacts/:id          ->  show
- * PUT     /Contacts/:id          ->  update
- * DELETE  /Contacts/:id          ->  destroy
+ * GET     /things              ->  index
+ * POST    /things              ->  create
+ * GET     /things/:id          ->  show
+ * PUT     /things/:id          ->  update
+ * DELETE  /things/:id          ->  destroy
  */
-
 'use strict';
 
 var _ = require('lodash');

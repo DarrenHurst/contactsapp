@@ -5,26 +5,25 @@
 
 'use strict';
 
-var Contact = require('../api/contact/contact.model');
+var Thing = require('../api/contact/contact.model');
 
 
-Contact.find({}).remove(function() {
-  Contact.create({
+Thing.find({}).remove(function() {
+  Thing.create({
     name : 'Darren Hurst',
-    email : 'hurst_darren@hotmail.com',
-    phone1 : '407.810.7954'
-  },
-  {
+    email : 'Hurst_Darren@hotmail.com',
+    phone1 :'407-810-7954'
+  },{
     name : 'Darren Hurst2',
-    email : 'hurst_darren@hotmail.com',
-    phone1 : '407.810.7954'
+    email : 'Hurst_Darren@hotmail.com',
+    phone1 :'407-810-7954'
   },{
     name : 'Darren Hurst3',
-    email : 'hurst_darren@hotmail.com',
-    phone1 : '407.810.7954'
+    email : 'Hurst_Darren@hotmail.com',
+    phone1 :'407-810-7954'
   },{
     name : 'Darren Hurst4',
-    email : 'hurst_darren@hotmail.com',
-    phone1 : '407.810.7954'
-  });
+    email : 'Hurst_Darren@hotmail.com',
+    phone1 :'407-810-7954'
+  }    );
 });
