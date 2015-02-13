@@ -1,3 +1,8 @@
+This appliction runs the yeoman angular-fullstack generator. It uses a component based file layout. Your directives and controllers can be grouped in folders.  The generator comes complete with a grunt based distribution.  
+#Setup
+  - Install node,bower,yoeman and download mondodb
+  - npm install -g generator-angular-fullstack (installs the yo generator used here)
+
 #Running Instructions
    
 ##1. Run with Node and Local
