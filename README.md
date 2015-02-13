@@ -3,13 +3,15 @@
 ##1. Run with Node and Local
 ----------------------------
 
-Use grunt build 
 
 #### Run Local
+    - grunt build 
     - Start Mongo server ./mondod
-    - Grunt serve
+    - grunt serve
+
 #### Run Local Distribution Test
-    - Grunt serve:dist
+    - grunt build
+    - grunt serve:dist
 
 ##2. Deploy to OpenShift
     - yo angular-fullstack:openshift
