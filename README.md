@@ -12,9 +12,7 @@ Use grunt build
     - Grunt serve:dist
 
 ##2. Deploy to OpenShift
-----------------------------
-
-- yo angular-fullstack:openshift
+    - yo angular-fullstack:openshift
 
 #### To Update Cloud Build
 After app modification run
