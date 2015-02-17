@@ -4,8 +4,9 @@ angular.module('testApp')
   .directive('contacts', function () {
     return {
       templateUrl: 'app/contacts/contacts.html',
-      restrict: 'EA',
+      restrict: 'E',
       link: function (scope, element, attrs) {
+ 
       }
     };
   });

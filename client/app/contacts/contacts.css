@@ -32,19 +32,37 @@
 .contact{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
-	border-radius:5px;
-	border: 1px #aaa solid;
+	
 	float:left;
-	display: inline;
-	margin:15px;
-	padding:15px;
+	display: inline-block;
+    padding:5px;
 		color:#aaa;
-		box-shadow: #aaa 2px 2px;
-		min-width: 210px;
+		min-width:100%;
 }
-
+.contact:nth-child(even){
+	background:#f3f3f3;
+}
 .name{
 	font-size:28px;
+	display:inline;
+	float:left;
+	padding-right:10px;
+
+}
+.email{
+	font-size:18px;
+	display:inline;
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
+
+}
+.phone1{
+	font-size:18px;
+	display:inline;
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
 
 }
 
@@ -54,7 +72,7 @@
    font-weight: 300;
    padding:5px;
    font-size:18px;
-   margin-top:10px;
+   margin-top:5px;
    border-radius:3px;
    background-color:#FFCCCC;
    color:#CC0000;

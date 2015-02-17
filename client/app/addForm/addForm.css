@@ -1,4 +1,4 @@
-.addForm{
+.addform{
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    color:#AAA;
@@ -6,7 +6,7 @@
    margin:0 auto;
    padding:10px;
 }
-.addForm button{
+.addform button{
 	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    background-color:#CCFFCC;
@@ -19,7 +19,7 @@
    margin-top:15px;
 }
 
-.addForm input{
+.addform input{
 	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
     font-size:16px;
